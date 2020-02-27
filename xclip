@@ -1,0 +1,3 @@
+/home/des/anaconda3/include/python3.7m
+/home/des/anaconda3/bin/python -c from sysconfig import get_paths;import numpy;info = get_paths();print(info['include'])
+/home/des/anaconda3/include/python3.7m

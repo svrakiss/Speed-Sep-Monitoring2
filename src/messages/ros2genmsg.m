@@ -171,7 +171,8 @@ function ros2genmsg(folderPath)
 
 
     % Build the messages
-    createPackage(builder, [], true); %always force as users might be creating/updating/removing messages
+    createPackage(builder, [], false); %always force as users might be creating/updating/removing messages
+%     add 
     buildPackage(builder, [], ' --merge-install'); %other messages might need to be present in the same directory
 
     % Update preferences with folder information
