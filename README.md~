@@ -27,5 +27,15 @@ Make a link here
 to the numpy include directory here
     $(which python3.7) -c "import numpy;print(numpy.get_include()+ '/numpy') "
 
-sudo ln -s $numpy_include $python_numpy_include
+sudo ln -s $NUMPY_INCLULDE $PYTHON_NUMPY_INCLUDE
 then it should work
+
+   Can't find package object_msgs
+Reason: the package object_msgs hasn't been added to this installation of ros,  this can be fixed by adding it to the same directory and running 
+the ros2genmsg command again. Although this error shouldn't happen because the packages are already in the same directory.
+
+    Can't find object_msgs/msg/object__struct.hpp
+Reason: MATLAB didn't copy the CMakeList.txt file correctly. First go make sure in ros2genmsg that this line appears (instead of true)
+    createPackage(builder, [], false);
+This is to make sure it doesn't overwrite the changes to the CMakeLists.txt we're about to make.
+Go to matlab_msg_gen/glnxa/src/object_analytics_msgs/CMakeList
