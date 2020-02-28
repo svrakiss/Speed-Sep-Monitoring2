@@ -75,7 +75,7 @@ function ros2genmsg(folderPath)
     dotprinter = ros.ros2.internal.DotPrinter('ros:mlros2:util:GenMATLABInterface'); %#ok<NASGU>
 
     %for pkg we will create two packages
-    pkgInfsysos = cell(1,numel(pkgDirs));
+    pkgInfos = cell(1,numel(pkgDirs));
     includeDirs = { fullfile(matlabroot, 'extern','include'), ...
                     fullfile(matlabroot, 'extern','include','MatlabDataArray'), ...
                     fullfile(matlabroot, 'toolbox','ros','include','ros2') };

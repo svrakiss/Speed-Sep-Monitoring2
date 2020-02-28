@@ -27,5 +27,5 @@ Make a link here
 to the numpy include directory here
     $(which python3.7) -c "import numpy;print(numpy.get_include()+ '/numpy') "
 
-sudo ln -s $NUMPY_INCLULDE $PYTHON_NUMPY_INCLUDE
+sudo ln -s $numpy_include $python_numpy_include
 then it should work
