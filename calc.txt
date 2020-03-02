@@ -1,0 +1,30 @@
+function Sr = fcn(Tr, Vr)
+
+% separation distance due to robot motion
+% Vr is assumed to reduces the separation distance the most
+
+Sr = Tr * Vr;
+
+
+function Sh = fcn(t, Tr, Ts, Vh)
+
+% separation distance due to operator's change in location
+
+t_int = t:0.001:t+Tr+Ts;
+v = zeros(length(t_int),Vh);
+Sh_int = trapz(t-int,v);
+
+Sh = Sh_int(1,1);
+
+
+
+
+function Ss = fcn(t, Tr, Ts, Vs)
+
+% separation distance due to robot stopping
+
+t_int = t+Tr:0.001:t+Tr+Ts;
+v = zeros(length(t_int),1) + Vs;
+Ss_int = trapz(t-int,v);
+
+Ss = Ss_int(1,1);
