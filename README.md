@@ -64,3 +64,16 @@ It should look like
     ${msg_files}
     DEPENDENCIES std_msgs sensor_msgs geometry_msgs object_msgs)
 Then save it and rerun the ros2genmsg command and it should work.
+
+
+#
+Playing back the rosbag files
+sudo apt-get install ros-dashing-ros2bag ros-dashing-rosbag2 ros-dashing-rosbag2-storage-default-plugins
+
+
+then source your ros2 installation
+then you should be good to go.
+note when using rosbag you should provide the path of the directory that CONTAINS the database file, NOT the path of the database file
+ros2 bag info demos/attempt_3
+ros2 bag play demos/attempt_3
+
