@@ -1,0 +1,31 @@
+{
+  "package_name": "object_msgs",
+  "non_idl_tuples": [
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/AgeGender.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/AgeGenderStamped.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/Emotion.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/EmotionsStamped.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/HeadPose.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/HeadPoseStamped.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/Landmark.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/LandmarkStamped.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/LicensePlate.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/LicensePlateStamped.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/Object.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/ObjectInBox.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/ObjectInBox3D.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/ObjectInMask.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/Objects.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/ObjectsInBoxes.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/ObjectsInBoxes3D.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/ObjectsInMasks.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/PerfValue.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/PersonAttribute.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/PersonAttributeStamped.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/PersonsStamped.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/Reidentification.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/ReidentificationStamped.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/VehicleAttribs.msg",
+    "C:/Users/laiy/Desktop/lili/repo/Speed-Sep-Monitoring/src/messages/matlab_msg_gen/win64/src/object_msgs:msg/VehicleAttribsStamped.msg"
+  ]
+}

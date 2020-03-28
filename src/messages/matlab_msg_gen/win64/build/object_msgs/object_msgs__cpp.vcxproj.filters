@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\CMakeFiles\2e5ebed62ce01b5d8ffc77eeb164e562\age_gender.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\CMakeFiles\c347022dd944978eeb051c2dc58e5d09\object_msgs__cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\CMakeFiles\object_msgs__cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{122E9F5F-E302-389A-83EC-2E680B7ACB4A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

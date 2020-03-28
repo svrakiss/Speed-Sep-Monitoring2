@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_age_gender_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_age_gender_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_emotion_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_emotions_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_head_pose_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_head_pose_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_landmark_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_landmark_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_license_plate_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_license_plate_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_object_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_object_in_box_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_object_in_box3_d_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_object_in_mask_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_objects_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_objects_in_boxes_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_objects_in_boxes3_d_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_objects_in_masks_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_perf_value_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_person_attribute_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_person_attribute_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_persons_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_reidentification_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_reidentification_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_vehicle_attribs_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\msg\_vehicle_attribs_stamped_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DA1138F3-6355-3FDE-A20F-9AE7D4D03502}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

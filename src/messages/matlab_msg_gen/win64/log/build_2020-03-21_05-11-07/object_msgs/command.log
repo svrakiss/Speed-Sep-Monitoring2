@@ -1,0 +1,16 @@
+Invoking command in 'C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs': APPDATA=%APPDATA%
+asl.log=Destination=file CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs -DCMAKE_INSTALL_PREFIX=C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\install -G Visual Studio 15 2017 -A x64
+Invoked command in 'C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs' returned '0': APPDATA=%APPDATA%
+asl.log=Destination=file CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs -DCMAKE_INSTALL_PREFIX=C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\install -G Visual Studio 15 2017 -A x64
+Invoking command in 'C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs': APPDATA=%APPDATA%
+asl.log=Destination=file CL=/MP CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs --config Release
+Invoked command in 'C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs' returned '1': APPDATA=%APPDATA%
+asl.log=Destination=file CL=/MP CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs --config Release

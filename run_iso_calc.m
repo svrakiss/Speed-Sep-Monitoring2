@@ -24,11 +24,11 @@ t_process   = 0.01;                   %processing time between each reading of v
 t_current   = 0;
 
 %% Prepare for plot
-figure(1)
-robot_plt = plot(0,0,'o','MarkerSize', 3, 'MarkerFaceColor', 'black');
-hold on;
-plt = plot(0,0,'o','MarkerSize',1, 'LineWidth', 3, 'Color', 'Red');
-title('Separation Distance');
+% figure(1)
+% robot_plt = plot(0,0,'o','MarkerSize', 3, 'MarkerFaceColor', 'black');
+% hold on;
+% plt = plot(0,0,'o','MarkerSize',1, 'LineWidth', 3, 'Color', 'Red');
+% title('Separation Distance');
 
 % for t = 0:t_process:tf
 %     %% Velocity Parameters
@@ -42,10 +42,10 @@ title('Separation Distance');
     
     % Run simulation
     simOut = sim('iso_calc_temp_ver2');
-    dis = simOut.Sep_Dis(end,1)
-    sh = simOut.Sh
-    sr = simOut.Sr
-    ss = simOut.Ss
+    dis = simOut.Sep_Dis;
+    sh = simOut.Sh;
+    sr = simOut.Sr;
+    ss = simOut.Ss;
     
 %     set(plt, 'MarkerSize', int8(dis*100))
 %     drawnow

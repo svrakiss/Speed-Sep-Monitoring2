@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_AgeGender_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_AgeGender_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_AgeGender_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_AgeGenderStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_AgeGenderStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_AgeGenderStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_Emotion_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Emotion_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Emotion_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_EmotionsStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_EmotionsStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_EmotionsStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_HeadPose_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_HeadPose_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_HeadPose_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_HeadPoseStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_HeadPoseStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_HeadPoseStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_Landmark_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Landmark_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Landmark_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_LandmarkStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_LandmarkStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_LandmarkStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_LicensePlate_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_LicensePlate_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_LicensePlate_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_LicensePlateStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_LicensePlateStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_LicensePlateStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_Object_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Object_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Object_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_ObjectInBox_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectInBox_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectInBox_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_ObjectInBox3D_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectInBox3D_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectInBox3D_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_ObjectInMask_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectInMask_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectInMask_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_Objects_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Objects_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Objects_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_ObjectsInBoxes_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectsInBoxes_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectsInBoxes_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_ObjectsInBoxes3D_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectsInBoxes3D_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectsInBoxes3D_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_ObjectsInMasks_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectsInMasks_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ObjectsInMasks_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_PerfValue_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_PerfValue_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_PerfValue_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_PersonAttribute_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_PersonAttribute_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_PersonAttribute_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_PersonAttributeStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_PersonAttributeStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_PersonAttributeStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_PersonsStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_PersonsStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_PersonsStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_Reidentification_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Reidentification_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_Reidentification_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_ReidentificationStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ReidentificationStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_ReidentificationStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_VehicleAttribs_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_VehicleAttribs_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_VehicleAttribs_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_VehicleAttribsStamped_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_VehicleAttribsStamped_publisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\src\object_msgs_msg_VehicleAttribsStamped_subscriber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DA1138F3-6355-3FDE-A20F-9AE7D4D03502}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

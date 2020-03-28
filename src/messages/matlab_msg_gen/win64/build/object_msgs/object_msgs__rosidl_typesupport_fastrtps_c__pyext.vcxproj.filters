@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\build\object_msgs\rosidl_generator_py\object_msgs\_object_msgs_s.ep.rosidl_typesupport_fastrtps_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\laiy\Desktop\lili\repo\Speed-Sep-Monitoring\src\messages\matlab_msg_gen\win64\src\object_msgs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DA1138F3-6355-3FDE-A20F-9AE7D4D03502}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
