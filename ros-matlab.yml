@@ -1,0 +1,144 @@
+
+openapi: 3.0.0
+
+info:
+  title: Speed and Separation Monitoring Api
+  description: >
+    You can query, delete, and update the separation distance.
+    ---
+    
+ 
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    name: Desmond Davis
+    url: "rose-hulman.edu"
+    email: davisds1@rose-hulman.edu
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+  version: 1.0.0
+
+
+  variables:
+    protocol:
+      default: rtps
+    DomainID:
+      default: 32
+  topics published:
+    /object_analytics/movement:
+      schema:
+        $ref: '#/components/schemas/object_analytics_msgs/MovingObjectsInFrame'
+
+components:
+  schemas:
+    std_msgs:
+      Header:
+        description: "Standard metadata for higher level stamped data types. This is generally used to communicate timestamped data in a particular coordinate frame."
+          type: object
+          properties:
+            stamp:
+              type: Time
+              description: "Two-integer timestamp that is expressed as seconds and nanoseconds."
+              schema:
+                $ref: '#/components/schemas/builtin_interfaces/Time'
+            frame_id:
+              type: string
+              description: "Transform frame with which this data is associated."
+    builtin_interfaces:
+      Time:
+        type: object
+        description: "Two-integer time time stampt that is expressed as seconds and nanoseconds."
+        properties:
+          sec:
+            type: int32
+          nanosec:
+            type: uint32
+
+    object_analytics_msgs:
+      MovingObjectsInFrame:
+        type: object
+        description: "Array of moving objects with time stamp"
+        properties:
+          header:
+            schema:
+              $ref: '#/components/schemas/std_msgs/Header'
+          objects:
+            type: array
+            items:
+              $ref: '#/components/schemas/object_analytics_msgs/MovingObject'
+      MovingObject:
+        type: object
+        description: "Moving object"
+        properties:
+          id:
+            type: int32
+            description: "Object ID"
+          type:
+            type: string
+            description: "The object type detected in this roi"
+          probability:
+            type: float32
+            description: "The detection probability of object in this roi"
+          roi:
+            type: object
+            description: "region of interest"
+            schema:
+              $ref: '#/components/schemas/sensors_msgs/RegionOfInterest'
+          min:
+            type: object
+            description: "min & max locate the diagonal of a bounding-box of the detected object whose x, y, and z axis parallel to the axes correspondingly in camera coordinates"
+            schema:
+              $ref: '#/components/schemas/geometry_msgs/Point32'
+          max:
+            type: object
+            description: "min & max locate the diagonal of a bounding-box of the detected object whose x, y, and z axis parallel to the axes correspondingly in camera coordinates"
+            schema:
+              $ref: '#/components/schemas/geometry_msgs/Point32'
+          velocity:
+            type: object
+            description: "The velocity with which the roi moves"
+            schema:
+              $ref: '#/components/geometry_msgs/Point'
+    sensor_msgs:
+      RegionOfInterest:
+        type: object
+        description: "This message is used to specify a region of interest within an image."
+        summary: "When used to specify the ROI setting of the camera when the image was taken the height and width fields should either match the height and width fields for the associated image; or height = width = 0 indicates that the full resolution image was captured."
+        properties:
+          x_offset:
+            type: uint32
+            description: "Leftmost pixel of the ROI"
+          y_offset:
+            type: uint32
+            description: "Topmost pixel of the ROI"
+          height:
+            type: uint32
+            description: "Height of ROI"
+          width:
+            type: uint32
+            description: "Width of ROI"
+          do_rectify:
+            type: bool
+            description: "True if a distinct rectified ROI should be calculated from the 'raw' ROI in this message. Typically this should be False if the full image is captured in this message (ROI not used), and True if a subwindow is captured (ROI used)."
+    geometry_msgs:
+      Point32:
+        type: object
+        description: "This contains the position of a point in free space (with 32 bits of precision). It is recommended to use Point wherever possible instead of Point32.\n\n This recommendation if to promote interoperability.\n This message is designed to take up less space when sending lots of points at once, as in the case of a PointCloud."
+        properties:
+          x:
+            type: float32
+          y:
+            type: float32
+          z:
+            type: float32
+      Point:
+        type: object
+        description: "This contains the position of a point in free space"
+        properties:
+          x:
+            type: float64
+          y:
+            type: float64
+          z:
+            type: float64
+...
