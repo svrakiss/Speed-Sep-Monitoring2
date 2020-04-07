@@ -7,8 +7,15 @@ function [outputArg1,outputArg2] =SSMdatacall()
 %   ROS2-data-analytics package output.
 
 % Variables currently needed by simulink model: tsys, xc, yc, zc ,vxc, vyc, vzc
-% The ROS2 messages that bring these variables are: builtin_interfaces/Time
-% for tsys, geometry_msgs/Point for vxc, vyc, and vzc, and
+
+% The ROS2 messages that bring these variables are: 
+
+% builtin_interfaces/Time for tsys
+
+
+% geometry_msgs/Point for vxc, vyc, and vzc
+
+
 % geometry_msgs/Point32 to derive xc, yc, zc from for the bounding boxes.
 end
 
