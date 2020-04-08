@@ -16,17 +16,17 @@ T_rob_cam = [ Rr_cam  Pr_rob_cam; 0 0 0 1 ];
 
 Pr_rob_worker = T_rob_cam * [ Pc_cam_worker; 1];
 
-xr = round(Pr_rob_worker(1),5);
-yr =  round(Pr_rob_worker(2),5);
-zr =  round(Pr_rob_worker(3),5);
+xr = Pr_rob_worker(1);
+yr = Pr_rob_worker(2);
+zr = Pr_rob_worker(3);
 
 %% Velocity
 Pc_v = [ vxc; vyc; vzc ];
 
 Pr_v = Rr_cam * Pc_v;
 
-vxr = round(Pr_v(1),5);
-vyr = round(Pr_v(2),5);
-vzr = round(Pr_v(3),5);
+vxr = Pr_v(1);
+vyr = Pr_v(2);
+vzr = Pr_v(3);
 
 end
