@@ -6,7 +6,10 @@ FROM whipcarte/matlab:r2020a_conda
 # ros-dashing-object-analytics-msgs
 
 # RUN grep -F "export ROS_DOMAIN_ID" ~/.bashrc || echo "export ROS_DOMAIN_ID=32" >> ~/.bashrc
+RUN apt-get update -y && apt-get install --no-install-recommends -y -q curl python build-essential git ca-certificates
+RUN mkdir /nodejs && curl https://nodejs.org/dist/v14.0.0/node-v14.0.0-linux-x64.tar.xz | tar xvzf - -C /nodejs --strip-components=1
 
+ENV PATH $PATH:/nodejs/bin 
 # WORKDIR /home/ubuntu
 COPY . /home/matlab/SSM
 # CMD ["bash"]
