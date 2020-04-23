@@ -8,6 +8,6 @@ FROM whipcarte/matlab:r2020a_conda
 # RUN grep -F "export ROS_DOMAIN_ID" ~/.bashrc || echo "export ROS_DOMAIN_ID=32" >> ~/.bashrc
 
 # WORKDIR /home/ubuntu
-# COPY . SSM
+COPY . /home/matlab/SSM
 # CMD ["bash"]
 
