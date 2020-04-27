@@ -3,7 +3,7 @@ services:
     matlab:
         image: whipcarte/matlab
         volumes:
-        - /tmp/.X11-unix:/tmp/.X11-unix :rw
+        - /tmp/.X11-unix:/tmp/.X11-unix
         - .:/home/matlab/SSM:rw
         environment: 
         - DISPLAY=$DISPLAY
