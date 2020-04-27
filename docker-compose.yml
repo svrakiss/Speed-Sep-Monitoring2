@@ -13,6 +13,6 @@ services:
     playros2:
         image: whipcarte/ssm
         volumes:
-        - .:/home/matlab/SSM:rw
+        - .:/home/ubuntu/SSM:rw
         tty: true
         stdin_open: true
