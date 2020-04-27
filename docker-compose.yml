@@ -3,10 +3,16 @@ services:
     matlab:
         image: whipcarte/matlab
         volumes:
-        - /tmp/.X11-unix:/tmp/.X11-unix
-        - .:/home/matlab/SSM
+        - /tmp/.X11-unix:/tmp/.X11-unix :rw
+        - .:/home/matlab/SSM:rw
         environment: 
         - DISPLAY=$DISPLAY
         tty: true
         stdin_open: true
         mac_address: 02:42:ac:11:00:02
+    playros2:
+        image: whipcarte/ssm
+        volumes:
+        - .:/home/matlab/SSM:rw
+        tty: true
+        stdin_open: true
