@@ -1,3 +1,4 @@
+function [xc,yc,zc,vxc,vyc,vzc] = SSMdatacall(movement)
 % This script is intended to be a constant communication call between ROS2
 % and Simulink.
 %   This function subscribes to the nodes and writes the data into the
@@ -8,17 +9,18 @@
 % Variables currently needed by simulink model: xc, yc, zc ,vxc, vyc, vzc
 % For first run purposes, position will be max position of bounding box.
 i = 0
-poseLocalData = receive(localization,10)
+%poseLocalData = receive(localization,10)
 poseMovementData = receive(movement,10)
-vxc = poseMovementData.objects.velocity.x;
+vxc = poseMovementData.objects(1).velocity.x;
 vxc = double(vxc);
-vyc = poseMovementData.objects.velocity.y;
+vyc = poseMovementData.objects(1).velocity.y;
 vyc = double(vyc);
-vzc = poseMovementData.objects.velocity.z;
+vzc = poseMovementData.objects(1).velocity.z;
 vzc = double(vzc);
-xc  = poseMovementData.objects.max.x;
+xc  = poseMovementData.objects(1).max.x;
 xc = double(xc);
-yc  = poseMovementData.objects.max.y;
+yc  = poseMovementData.objects(1).max.y;
 yc = double(yc);
-zc  = poseMovementData.objects.max.z;
+zc  = poseMovementData.objects(1).max.z;
 zc = double(zc);
+
