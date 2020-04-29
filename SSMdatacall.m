@@ -8,9 +8,9 @@ function [xc,yc,zc,vxc,vyc,vzc] = SSMdatacall(movement)
 
 % Variables currently needed by simulink model: xc, yc, zc ,vxc, vyc, vzc
 % For first run purposes, position will be max position of bounding box.
-i = 0
+
 %poseLocalData = receive(localization,10)
-poseMovementData = receive(movement,10)
+poseMovementData = receive(movement,10);
 vxc = poseMovementData.objects(1).velocity.x;
 vxc = double(vxc);
 vyc = poseMovementData.objects(1).velocity.y;
