@@ -1,0 +1,61 @@
+
+openapi: 3.0.0
+
+info:
+  title: Speed and Separation Monitoring RESTful Api
+  description: >
+    A RESTful Api server which could send the result of the MATLAB to the client
+    
+ 
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    name: Kim Ye
+    url: "rose-hulman.edu"
+    email: yer@rose-hulman.edu
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+  version: 1.0.0
+
+
+servers:
+  - url: '{protocol}://{environment}:{port}'
+    variables:
+      environment:
+        default: api    # Production server
+        enum:
+          - api         # Production server
+          - api.dev     # Development server
+          - api.staging # Staging server
+      protocol:
+        default: https
+        enum:
+          - http
+          - https
+          # - tcp
+      
+paths:
+  get:
+    tags:
+      - Posts
+    summary: Return the MATLAB result
+    description: Return a json file which contains the MATLAB result
+    responses:
+      '200':
+        description: A number in JSON format
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/Posts'
+components:
+  schemas:
+    Posts:
+      description: "A number"
+      type: Object
+      items:
+        $ref: '#/components/schemas/Post'
+      example: [
+            {
+              "result": 0.8245
+            }
+      ]
