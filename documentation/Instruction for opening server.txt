@@ -1,0 +1,8 @@
+1. Download Node.js from its official website.
+2. Open a command window and type in the following command:
+	$ node app.js
+	Note that app.js can be replaced by
+	<path to app.js>/app.js
+3. Open a browser and type in the following address:
+	http://127.0.0.1:3000/
+	The result, separation distance, can be requested by refreshing the webpage in json.

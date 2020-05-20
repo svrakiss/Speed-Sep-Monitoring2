@@ -16,8 +16,8 @@ Vs = 0;             % (m/ms) speed of robot when stopping
 t_current   = 0;
 
 %% Simulation
-simOut = sim('ISO_Simulation\iso_calc_temp_ver4');         % for testing without sample rosbag videos
-% simOut = sim('ISO_Simulation\iso_calc_temp_ver3');         % for testing with sample rosbag videos
+% simOut = sim('ISO_Simulation\iso_calc_temp_ver4');         % for testing without sample rosbag videos
+simOut = sim('ISO_Simulation\iso_calc_temp_ver3');         % for testing with sample rosbag videos
 dis = simOut.Sep_Dis        % seperation distance
 
 % simOut = sim('ISO_Simulation\iso_calc_temp_ver2');         % for testing without sample rosbag videos
