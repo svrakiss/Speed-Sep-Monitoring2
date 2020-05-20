@@ -1,3 +1,3 @@
 #!/bin/bash
+for ((;;));do ros2 bag play demos/demos/final_demo;done
 # echo "HELLO"
-for ((;;));do ros2 bag play demos/demos/attempt_3;done
