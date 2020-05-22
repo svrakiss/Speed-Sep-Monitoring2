@@ -17,4 +17,6 @@ services:
         tty: true
         stdin_open: true
         working_dir: /home/ubuntu/SSM
-        # entrypoint: /home/ubuntu/SSM/ros2demo
+    nodejs:
+        image: readytalk/nodejs
+    

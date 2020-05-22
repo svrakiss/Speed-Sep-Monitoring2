@@ -1,0 +1,21 @@
+rosbag2_bagfile_information:
+  version: 1
+  storage_identifier: sqlite3
+  relative_file_paths:
+    - final_demo.db3
+  duration:
+    nanoseconds: 134243216071
+  starting_time:
+    nanoseconds_since_epoch: 1589976479325326163
+  message_count: 772
+  topics_with_message_count:
+    - topic_metadata:
+        name: /object_analytics/localization
+        type: object_analytics_msgs/msg/ObjectsInBoxes3D
+        serialization_format: cdr
+      message_count: 386
+    - topic_metadata:
+        name: /object_analytics/movement
+        type: object_analytics_msgs/msg/MovingObjectsInFrame
+        serialization_format: cdr
+      message_count: 386
